@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VanillaJS Te</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>   
+
+<div class="keys">
+    <div class="key">
+        <span>PRESS SPACE</span> 
+    </div> 
+</div>
+    <script>
+
+       window.addEventListener('keydown', function(e) {
+        if(e.keyCode === 32){
+            const html = document.getElementsByTagName('html')[0];
+            html.classList.add('spacebar');
+        }
+       });
+
+       window.addEventListener('keyup', function(e) {
+        if(e.keyCode === 32){
+            const html = document.getElementsByTagName('html')[0];
+            html.classList.remove('spacebar');
+        }
+       });
+
+    </script>
+</body>
+</html>

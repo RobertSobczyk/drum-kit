@@ -1,7 +1,11 @@
 html {
     font-size: 15px;
-    background: url(https://sfondo.info/i/original/7/3/1/47174.jpg) bottom center;;
+    background: blue;
     background-size: cover;
+}
+.spacebar
+{
+    background:red;
 }
 
 body,html{
@@ -26,7 +30,7 @@ body,html{
   padding: 1rem .5rem;
   transition: all .07s ease;
   width: 10rem;
-  text-align: center;
+  text-align: center;   
   color: white;
   background: rgba(0,0,0,0.3);
   text-shadow: 0 0 .5rem black;
